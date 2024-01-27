@@ -1,0 +1,518 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+
+}
+
+body {
+     height: 500vh;
+     width: 100%;
+     background-image: url('welcome-banner.jpg');
+     background-repeat: no-repeat;
+}
+
+nav {
+     width: 100%;
+     height: 100px;
+}
+
+nav:hover {
+     background-color: black;
+}
+
+nav h1 {
+     color: white;
+     margin-left: 4rem;
+     text-transform: uppercase;
+
+}
+
+.main-1 {
+     display: flex;
+     justify-content: space-between;
+     color: white;
+     text-transform: uppercase;
+     height: 50px;
+     width: 60%;
+     margin-left: 30rem;
+
+}
+
+.main-1 h3 {
+     margin-right: 3rem;
+
+}
+
+.main-2 {
+     margin-top: 10rem;
+     padding-left: 25rem;
+     color: white;
+}
+
+.main-2 h1 {
+     text-transform: uppercase;
+}
+
+.main-2 h3 {
+     margin-top: 3rem;
+     padding-left: 5rem;
+}
+
+.main-2 h4 {
+     margin-top: 1rem;
+     padding-left: 15rem;
+}
+
+.main-2 button {
+     margin-top: 4rem;
+     margin-left: 20rem;
+     height: 40px;
+     width: 15%;
+     background-color: blue;
+     color: white;
+}
+
+.container-box2{
+     height: 25rem;
+     width: 70%;
+     border: 2px solid gray;
+     margin-left: 15rem;
+     display: flex;
+     margin-top: 15rem;
+     box-shadow: 5px 5px 5px 5px dimgrey;
+}
+
+.part-1-1{
+     height: 8rem;
+     width: 50rem;
+     display: flex;
+     justify-content: space-between;
+     justify-content: space-around;
+}
+.label-1 {
+     color: white;
+     margin-top: 3rem;
+     font-size: 20px;
+}
+
+.label-1 select {
+     height: 40px;
+     width: 140px;
+     margin-top: 2.2rem;
+
+}
+
+.label-2 {
+     color: white;
+     font-size: 20px;
+     margin-top: 3rem;
+}
+
+.label-2 select {
+     height: 40px;
+     width: 140px;
+     margin-top: 40px;
+}
+
+.label-3 {
+     color: white;
+     font-size: 20px;
+     margin-top: 3rem;
+}
+
+.label-3 select {
+     height: 40px;
+     width: 140px;
+     margin-top: 40px;
+}
+.label-4 {
+     color: black;
+     font-size: 20px;
+     margin-top: 5rem;
+
+}
+.label-4 select{
+     height: 40px;
+     width: 140px;
+     margin-top: 4rem;
+     
+}
+.label-5 {
+     color: black;
+     font-size: 20px;
+     margin-top: 4rem;
+
+}
+.label-5 select{
+     height: 40px;
+     width: 140px;
+     margin-top: 4rem;
+     
+}
+.label-6{
+     color: black;
+     font-size: 20px;
+     margin-top: 5rem;
+
+}
+.label-6 select{
+     height: 40px;
+     width: 140px;
+     margin-top: 4rem;
+     
+}
+.part-2 button{
+     height: 40px;
+     width: 100%;
+     background-color: white;
+     margin-top: 10rem;
+     margin-left: 5rem;
+     cursor: pointer;
+}
+.part-2 button:hover{
+     background-color: blue;
+}
+.container-1 {
+     height: 50vh;
+     width: 70%;
+     margin-left: 15rem;
+     display: flex;
+     margin-top: 10rem;
+}
+
+.container-1 .box-1 {
+     height: 50vh;
+     width: 50%;
+     border: 3px solid dimgray;
+     cursor: pointer;
+     background-color: white;
+     box-shadow: 5px 5px 5px 5px gray;
+     padding-left: 2rem;
+}
+
+.container-1 .box-1:hover {
+     background-color: blue;
+}
+
+.fa-car {
+     font-size: 4rem;
+     color: rgb(60, 56, 56);
+     margin-top: 3rem;
+     margin-left: 4rem;
+}
+
+.box-1 h3 {
+     margin-top: 4rem;
+}
+
+.box-1 p {
+     margin-top: 1rem;
+}
+
+.container-1 .box-2 {
+     height: 50vh;
+     width: 50%;
+     margin-left: 3rem;
+     background-color: white;
+     box-shadow: 5px 5px 5px 5px dimgrey;
+     padding-left: 2rem;
+     border: 3px solid dimgray;
+}
+
+.container-1 .box-2:hover {
+     background-color: blue;
+}
+
+.box-2 h3 {
+     margin-top: 4rem;
+}
+
+.box-2 p {
+     margin-top: 1rem;
+}
+
+.container-1 .box-3 {
+     height: 50vh;
+     width: 50%;
+     margin-left: 2rem;
+     background-color: white;
+     box-shadow: 5px 5px 5px 5px dimgray;
+     padding-left: 2rem;
+     border: 3px solid dimgray;
+}
+
+.container-1 .box-3:hover {
+     background-color: blue;
+}
+
+.box-3 h3 {
+     margin-top: 4rem;
+}
+
+.box-3 p {
+     margin-top: 1rem;
+}
+
+.new-car{
+     margin-left: 40rem;
+     margin-top: 5rem;
+
+}
+
+.container-2 {
+     margin-top: 6rem;
+     display: flex;
+     justify-content: space-around;
+     justify-content: center;
+}
+
+.container-2 img {
+     margin-top: 5rem;
+     margin-right: 10rem;
+}
+
+.container-2 h3 {
+     margin-top: 1rem;
+     margin-right: 3rem;
+}
+
+.container-2 p {
+     margin-top: 1rem;
+     margin-right: 3rem;
+     font-size: 1.1rem;
+}
+
+.container-2 button {
+     height: 3rem;
+     width: 25%;
+     background-color: blue;
+     color: white;
+     margin-top: 3rem;
+     font-size: bold;
+}
+
+.container-3 {
+     margin-top: 8rem;
+     margin-left: 40rem;
+
+}
+
+.class {
+     display: flex;
+     margin-top: 5rem;
+
+}
+
+.class-1 {
+     border: 1px solid gray;
+     height: 20rem;
+     width: 20%;
+     margin-left: 5rem;
+     box-shadow: 4px 4px 4px 4px  gray;
+}
+
+.class-1-img {
+     height: 75%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-bottom: 1px solid gray;
+
+}
+
+.class-1 .h5 {
+     width: 100%;
+     height: 25%;
+     display: flex;
+     align-items: center;
+     padding-left: 20px;
+}
+
+.container-4 {
+     height: 12rem;
+     width: 100%;
+     margin-top: 2rem;
+     display: flex;
+}
+
+.container-4 .class-2 {
+     margin-left: 5rem;
+}
+
+.class-2 h5 {
+     margin-top: 1rem;
+}
+
+.class-2 p {
+     margin-top: 1rem;
+}
+
+.container-5 {
+     display: flex;
+     margin-top: 2rem;
+}
+
+.class-3 {
+     border: 1px solid gray;
+     height: 20rem;
+     width: 20%;
+     margin-left: 5rem;
+     box-shadow: 4px 4px 4px 4px gray;
+}
+
+.class-2-img {
+     height: 75%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-bottom: 1px solid gray;
+
+}
+
+.class-3 .h5 {
+     width: 100%;
+     height: 25%;
+     display: flex;
+     align-items: center;
+     /* padding-left: 20px; */
+}
+
+.container-6 {
+     height: 12rem;
+     width: 100%;
+     margin-top: 2rem;
+     display: flex;
+}
+
+.container-6 .class-4 {
+     margin-left: 5rem;
+}
+
+.class-4 h5 {
+     margin-top: 1rem;
+}
+
+.class-4 p {
+     margin-top: 1rem;
+}
+
+.container-7 {
+     margin-top: 5rem;
+     margin-left: 35rem;
+}
+
+.container-8 {
+     height: 50vh;
+     width: 80%;
+     margin-left: 10rem;
+     display: flex;
+     margin-top: 8rem;
+}
+
+.container-8 .box-1-1 {
+     height: 50vh;
+     width: 50%;
+     border: 1px solid gray;
+     cursor: pointer;
+     background-color: white;
+     box-shadow: 5px 5px 5px 5px gray;
+     margin-left: 5rem;
+}
+
+.container-8 .box-1-1:hover {
+     background-color: blue;
+}
+
+.box-1-1 img {
+     margin-top: 3rem;
+     margin-left: 7rem;
+}
+
+.box-1-1 p {
+     margin-top: 4rem;
+     padding-left: 2rem;
+}
+
+.box-1-1 h3 {
+     margin-top: 1.5rem;
+     padding-left: 6rem;
+}
+
+.container-9 {
+     height: 25vh;
+     width: 96%;
+     margin: 10rem auto;
+     /* padding-left: 10rem; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.box-1-1-1 {
+     margin-top: 5rem;
+
+}
+.container-10{
+    
+     height: 70vh;
+     width: 100%;
+     background-color: rgb(62, 62, 220);
+     color: white;
+
+}
+.container-11 {    
+     display: flex;
+}
+.container-11 .class-7 {
+     margin-left: 10rem;
+}
+.class-7 h1 {
+     margin-top: 10rem;
+}
+.class-7 p{
+     margin-top: 3rem;
+}
+.container-11 .class-8 {    
+     margin-top: 10rem;
+     margin-left: 2rem;
+     
+}
+.class-8 p{
+     margin-top: 3rem;
+}
+.class-9{
+     margin-top: 10rem;
+     margin-left: 10rem;
+}
+.class-9 p{
+     margin-top: 3rem;
+
+}
+.class-9 button{
+     height: 40px;
+     width: 100%;
+     margin-top: 2rem;
+
+}
+.fa-arrow-right{
+     margin-left: 9rem;
+}
+.container-12{
+     display: flex;
+     width: 80%;
+     margin: auto;
+     border-top: 1px solid white;
+     padding-top: 2rem;
+     justify-content: space-between;
+
+}
+.container-13{
+     width: 50%;
+}
+.container-14{
+     width: fit-content;
+     display: flex;
+     gap: 1rem;
+}
